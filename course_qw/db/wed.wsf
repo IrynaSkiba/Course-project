@@ -385,7 +385,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB";
+		SIGNAL = "CB";
 		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
@@ -393,7 +393,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[13]";
+		SIGNAL = "CB[9]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -401,7 +401,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[12]";
+		SIGNAL = "CB[8]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -409,7 +409,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[11]";
+		SIGNAL = "CB[7]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -417,7 +417,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[10]";
+		SIGNAL = "CB[6]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -425,7 +425,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[9]";
+		SIGNAL = "CB[5]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -433,7 +433,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[8]";
+		SIGNAL = "CB[4]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -441,7 +441,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[7]";
+		SIGNAL = "CB[3]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -449,7 +449,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[6]";
+		SIGNAL = "CB[2]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -457,7 +457,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[5]";
+		SIGNAL = "CB[1]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -465,7 +465,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[4]";
+		SIGNAL = "CB[0]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -473,15 +473,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[3]";
+		SIGNAL = "AB";
 		INDEX = 12;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[2]";
+		SIGNAL = "AB[13]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -489,7 +489,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[1]";
+		SIGNAL = "AB[12]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -497,7 +497,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[0]";
+		SIGNAL = "AB[11]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -505,15 +505,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB";
+		SIGNAL = "AB[10]";
 		INDEX = 16;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[9]";
+		SIGNAL = "AB[9]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -521,7 +521,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[8]";
+		SIGNAL = "AB[8]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -529,7 +529,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[7]";
+		SIGNAL = "AB[7]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -537,7 +537,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[6]";
+		SIGNAL = "AB[6]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -545,7 +545,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[5]";
+		SIGNAL = "AB[5]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -553,7 +553,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[4]";
+		SIGNAL = "AB[4]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -561,7 +561,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[3]";
+		SIGNAL = "AB[3]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -569,7 +569,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[2]";
+		SIGNAL = "AB[2]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -577,7 +577,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[1]";
+		SIGNAL = "AB[1]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -585,7 +585,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[0]";
+		SIGNAL = "AB[0]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -681,7 +681,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old";
+		SIGNAL = "ip";
 		INDEX = 38;
 		FORMAT = T;
 		SCALE = 1;
@@ -689,7 +689,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[9]";
+		SIGNAL = "ip[13]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -697,7 +697,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[8]";
+		SIGNAL = "ip[12]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -705,7 +705,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[7]";
+		SIGNAL = "ip[11]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -713,7 +713,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[6]";
+		SIGNAL = "ip[10]";
 		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
@@ -721,7 +721,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[5]";
+		SIGNAL = "ip[9]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -729,7 +729,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[4]";
+		SIGNAL = "ip[8]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -737,7 +737,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[3]";
+		SIGNAL = "ip[7]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -745,7 +745,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[2]";
+		SIGNAL = "ip[6]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -753,7 +753,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[1]";
+		SIGNAL = "ip[5]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -761,7 +761,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[0]";
+		SIGNAL = "ip[4]";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -769,312 +769,8 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle";
-		INDEX = 49;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[9]";
-		INDEX = 50;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[8]";
-		INDEX = 51;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[7]";
-		INDEX = 52;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[6]";
-		INDEX = 53;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[5]";
-		INDEX = 54;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[4]";
-		INDEX = 55;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[3]";
-		INDEX = 56;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[2]";
-		INDEX = 57;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[1]";
-		INDEX = 58;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "middle[0]";
-		INDEX = 59;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young";
-		INDEX = 60;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[9]";
-		INDEX = 61;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[8]";
-		INDEX = 62;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[7]";
-		INDEX = 63;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[6]";
-		INDEX = 64;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[5]";
-		INDEX = 65;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[4]";
-		INDEX = 66;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[3]";
-		INDEX = 67;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[2]";
-		INDEX = 68;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[1]";
-		INDEX = 69;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "young[0]";
-		INDEX = 70;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "adr_reg_for_r";
-		INDEX = 71;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "adr_reg_for_r[3]";
-		INDEX = 72;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "adr_reg_for_r[2]";
-		INDEX = 73;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "adr_reg_for_r[1]";
-		INDEX = 74;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "adr_reg_for_r[0]";
-		INDEX = 75;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip";
-		INDEX = 76;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[13]";
-		INDEX = 77;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[12]";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[11]";
-		INDEX = 79;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[10]";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[9]";
-		INDEX = 81;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[8]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[7]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[6]";
-		INDEX = 84;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[5]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[4]";
-		INDEX = 86;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "ip[3]";
-		INDEX = 87;
+		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1082,7 +778,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 	}
 	LINE{
 		SIGNAL = "ip[2]";
-		INDEX = 88;
+		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1090,7 +786,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 	}
 	LINE{
 		SIGNAL = "ip[1]";
-		INDEX = 89;
+		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1098,6 +794,310 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 	}
 	LINE{
 		SIGNAL = "ip[0]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old";
+		INDEX = 53;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[9]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[8]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[7]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[6]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[5]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[4]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[3]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[2]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[1]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "old[0]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle";
+		INDEX = 64;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[9]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[8]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[7]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[6]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[5]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[4]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[3]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[2]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[1]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "middle[0]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young";
+		INDEX = 75;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[9]";
+		INDEX = 76;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[8]";
+		INDEX = 77;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[7]";
+		INDEX = 78;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[6]";
+		INDEX = 79;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[5]";
+		INDEX = 80;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[4]";
+		INDEX = 81;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[3]";
+		INDEX = 82;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[2]";
+		INDEX = 83;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[1]";
+		INDEX = 84;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "young[0]";
+		INDEX = 85;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu";
+		INDEX = 86;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[9]";
+		INDEX = 87;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[8]";
+		INDEX = 88;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[7]";
+		INDEX = 89;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[6]";
 		INDEX = 90;
 		FORMAT = E;
 		SCALE = 1;
@@ -1105,8 +1105,176 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/debug.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "signal_out";
+		SIGNAL = "res_alu[5]";
 		INDEX = 91;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[4]";
+		INDEX = 92;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[3]";
+		INDEX = 93;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[2]";
+		INDEX = 94;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[1]";
+		INDEX = 95;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res_alu[0]";
+		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug";
+		INDEX = 97;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[13]";
+		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[12]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[11]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[10]";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[9]";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[8]";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[7]";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[6]";
+		INDEX = 105;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[5]";
+		INDEX = 106;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[4]";
+		INDEX = 107;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[3]";
+		INDEX = 108;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[2]";
+		INDEX = 109;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[1]";
+		INDEX = 110;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "debug[0]";
+		INDEX = 111;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write_to_mem";
+		INDEX = 112;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1118,9 +1286,9 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 200840;
+		ZEND = 196951;
 		NUMERATOR = 878;
-		DENOMINATOR = 200840;
+		DENOMINATOR = 196951;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -1132,7 +1300,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "clock";
+		SIGNAL = "init";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -1140,7 +1308,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB";
+		SIGNAL = "indata";
 		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
@@ -1148,7 +1316,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[13]";
+		SIGNAL = "indata[9]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -1156,7 +1324,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[12]";
+		SIGNAL = "indata[8]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -1164,7 +1332,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[11]";
+		SIGNAL = "indata[7]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -1172,7 +1340,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[10]";
+		SIGNAL = "indata[6]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -1180,7 +1348,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[9]";
+		SIGNAL = "indata[5]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -1188,7 +1356,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[8]";
+		SIGNAL = "indata[4]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -1196,7 +1364,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[7]";
+		SIGNAL = "indata[3]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -1204,7 +1372,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[6]";
+		SIGNAL = "indata[2]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -1212,7 +1380,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[5]";
+		SIGNAL = "indata[1]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -1220,7 +1388,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[4]";
+		SIGNAL = "indata[0]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -1228,7 +1396,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[3]";
+		SIGNAL = "POP";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -1236,7 +1404,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[2]";
+		SIGNAL = "PUSH";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -1244,15 +1412,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[1]";
+		SIGNAL = "outdata";
 		INDEX = 14;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "AB[0]";
+		SIGNAL = "outdata[9]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -1260,15 +1428,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB";
+		SIGNAL = "outdata[8]";
 		INDEX = 16;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[9]";
+		SIGNAL = "outdata[7]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -1276,7 +1444,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[8]";
+		SIGNAL = "outdata[6]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -1284,7 +1452,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[7]";
+		SIGNAL = "outdata[5]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -1292,7 +1460,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[6]";
+		SIGNAL = "outdata[4]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -1300,7 +1468,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[5]";
+		SIGNAL = "outdata[3]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -1308,7 +1476,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[4]";
+		SIGNAL = "outdata[2]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -1316,7 +1484,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[3]";
+		SIGNAL = "outdata[1]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -1324,7 +1492,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[2]";
+		SIGNAL = "outdata[0]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -1332,15 +1500,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[1]";
+		SIGNAL = "SP";
 		INDEX = 25;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CB[0]";
+		SIGNAL = "SP[2]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -1348,15 +1516,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB";
+		SIGNAL = "SP[1]";
 		INDEX = 27;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[9]";
+		SIGNAL = "SP[0]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -1364,15 +1532,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[8]";
+		SIGNAL = "SP_POP";
 		INDEX = 29;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[7]";
+		SIGNAL = "SP_POP[2]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -1380,7 +1548,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[6]";
+		SIGNAL = "SP_POP[1]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -1388,7 +1556,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[5]";
+		SIGNAL = "SP_POP[0]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -1396,15 +1564,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[4]";
+		SIGNAL = "st3";
 		INDEX = 33;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[3]";
+		SIGNAL = "st3[9]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -1412,7 +1580,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[2]";
+		SIGNAL = "st3[8]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -1420,7 +1588,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[1]";
+		SIGNAL = "st3[7]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -1428,7 +1596,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DB[0]";
+		SIGNAL = "st3[6]";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -1436,15 +1604,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old";
+		SIGNAL = "st3[5]";
 		INDEX = 38;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[9]";
+		SIGNAL = "st3[4]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -1452,7 +1620,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[8]";
+		SIGNAL = "st3[3]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -1460,7 +1628,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[7]";
+		SIGNAL = "st3[2]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -1468,7 +1636,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[6]";
+		SIGNAL = "st3[1]";
 		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
@@ -1476,7 +1644,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[5]";
+		SIGNAL = "st3[0]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -1484,15 +1652,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[4]";
+		SIGNAL = "st4";
 		INDEX = 44;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[3]";
+		SIGNAL = "st4[9]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -1500,7 +1668,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[2]";
+		SIGNAL = "st4[8]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -1508,7 +1676,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[1]";
+		SIGNAL = "st4[7]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -1516,7 +1684,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "old[0]";
+		SIGNAL = "st4[6]";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -1524,15 +1692,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle";
+		SIGNAL = "st4[5]";
 		INDEX = 49;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[9]";
+		SIGNAL = "st4[4]";
 		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
@@ -1540,7 +1708,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[8]";
+		SIGNAL = "st4[3]";
 		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
@@ -1548,7 +1716,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[7]";
+		SIGNAL = "st4[2]";
 		INDEX = 52;
 		FORMAT = E;
 		SCALE = 1;
@@ -1556,7 +1724,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[6]";
+		SIGNAL = "st4[1]";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -1564,7 +1732,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[5]";
+		SIGNAL = "st4[0]";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
@@ -1572,15 +1740,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[4]";
+		SIGNAL = "st5";
 		INDEX = 55;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[3]";
+		SIGNAL = "st5[9]";
 		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
@@ -1588,7 +1756,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[2]";
+		SIGNAL = "st5[8]";
 		INDEX = 57;
 		FORMAT = E;
 		SCALE = 1;
@@ -1596,7 +1764,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[1]";
+		SIGNAL = "st5[7]";
 		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
@@ -1604,7 +1772,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "middle[0]";
+		SIGNAL = "st5[6]";
 		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
@@ -1612,15 +1780,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young";
+		SIGNAL = "st5[5]";
 		INDEX = 60;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[9]";
+		SIGNAL = "st5[4]";
 		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
@@ -1628,7 +1796,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[8]";
+		SIGNAL = "st5[3]";
 		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
@@ -1636,7 +1804,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[7]";
+		SIGNAL = "st5[2]";
 		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
@@ -1644,7 +1812,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[6]";
+		SIGNAL = "st5[1]";
 		INDEX = 64;
 		FORMAT = E;
 		SCALE = 1;
@@ -1652,7 +1820,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[5]";
+		SIGNAL = "st5[0]";
 		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
@@ -1660,15 +1828,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[4]";
+		SIGNAL = "st6";
 		INDEX = 66;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[3]";
+		SIGNAL = "st6[9]";
 		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
@@ -1676,7 +1844,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[2]";
+		SIGNAL = "st6[8]";
 		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
@@ -1684,7 +1852,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[1]";
+		SIGNAL = "st6[7]";
 		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
@@ -1692,7 +1860,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "young[0]";
+		SIGNAL = "st6[6]";
 		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
@@ -1700,15 +1868,15 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip";
+		SIGNAL = "st6[5]";
 		INDEX = 71;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[13]";
+		SIGNAL = "st6[4]";
 		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
@@ -1716,7 +1884,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[12]";
+		SIGNAL = "st6[3]";
 		INDEX = 73;
 		FORMAT = E;
 		SCALE = 1;
@@ -1724,7 +1892,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[11]";
+		SIGNAL = "st6[2]";
 		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;
@@ -1732,7 +1900,7 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[10]";
+		SIGNAL = "st6[1]";
 		INDEX = 75;
 		FORMAT = E;
 		SCALE = 1;
@@ -1740,296 +1908,643 @@ VECTOR("D:/3 курс/курсач СиФО/course_qw/db/course.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[9]";
+		SIGNAL = "st6[0]";
 		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
+}
+
+VECTOR("D:/3 курс/курсач СиФО/course_qw/stack.vwf")
+{
+	ZOOM{
+		ZBEGIN = 51800;
+		ZEND = 244000;
+		NUMERATOR = 961;
+		DENOMINATOR = 192200;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
 	LINE{
-		SIGNAL = "ip[8]";
-		INDEX = 77;
+		SIGNAL = "init";
+		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ip[7]";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[6]";
-		INDEX = 79;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[5]";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[4]";
-		INDEX = 81;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[3]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[2]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[1]";
-		INDEX = 84;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ip[0]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "signal_out";
-		INDEX = 86;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "r2";
-		INDEX = 87;
+		SIGNAL = "indata";
+		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[9]";
-		INDEX = 88;
+		SIGNAL = "indata[9]";
+		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[8]";
-		INDEX = 89;
+		SIGNAL = "indata[8]";
+		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[7]";
-		INDEX = 90;
+		SIGNAL = "indata[7]";
+		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[6]";
-		INDEX = 91;
+		SIGNAL = "indata[6]";
+		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[5]";
-		INDEX = 92;
+		SIGNAL = "indata[5]";
+		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[4]";
-		INDEX = 93;
+		SIGNAL = "indata[4]";
+		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[3]";
-		INDEX = 94;
+		SIGNAL = "indata[3]";
+		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[2]";
-		INDEX = 95;
+		SIGNAL = "indata[2]";
+		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[1]";
-		INDEX = 96;
+		SIGNAL = "indata[1]";
+		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "r2[0]";
-		INDEX = 97;
+		SIGNAL = "indata[0]";
+		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug";
-		INDEX = 98;
+		SIGNAL = "POP";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "PUSH";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outdata";
+		INDEX = 14;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[13]";
-		INDEX = 99;
+		SIGNAL = "outdata[9]";
+		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[12]";
-		INDEX = 100;
+		SIGNAL = "outdata[8]";
+		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[11]";
-		INDEX = 101;
+		SIGNAL = "outdata[7]";
+		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[10]";
-		INDEX = 102;
+		SIGNAL = "outdata[6]";
+		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[9]";
-		INDEX = 103;
+		SIGNAL = "outdata[5]";
+		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[8]";
-		INDEX = 104;
+		SIGNAL = "outdata[4]";
+		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[7]";
-		INDEX = 105;
+		SIGNAL = "outdata[3]";
+		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[6]";
-		INDEX = 106;
+		SIGNAL = "outdata[2]";
+		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[5]";
-		INDEX = 107;
+		SIGNAL = "outdata[1]";
+		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[4]";
-		INDEX = 108;
+		SIGNAL = "outdata[0]";
+		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[3]";
-		INDEX = 109;
+		SIGNAL = "SP";
+		INDEX = 25;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SP[2]";
+		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[2]";
-		INDEX = 110;
+		SIGNAL = "SP[1]";
+		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[1]";
-		INDEX = 111;
+		SIGNAL = "SP[0]";
+		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "debug[0]";
-		INDEX = 112;
+		SIGNAL = "SP_POP";
+		INDEX = 29;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SP_POP[2]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SP_POP[1]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SP_POP[0]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3";
+		INDEX = 33;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[9]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[8]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[7]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[6]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[5]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[4]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[3]";
+		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[2]";
+		INDEX = 41;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[1]";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st3[0]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4";
+		INDEX = 44;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[9]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[8]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[7]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[6]";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[5]";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[4]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[3]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[2]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[1]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st4[0]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5";
+		INDEX = 55;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[9]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[8]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[7]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[6]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[5]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[4]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[3]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[2]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[1]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st5[0]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6";
+		INDEX = 66;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[9]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[8]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[7]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[6]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[5]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[4]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[3]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[2]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[1]";
+		INDEX = 75;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "st6[0]";
+		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

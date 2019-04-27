@@ -47,8 +47,8 @@ applicable agreement for further details.
 	(port
 		(pt 144 64)
 		(output)
-		(text "q[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[3..0]" (rect 95 58 125 71)(font "Arial" (font_size 8)))
+		(text "q[4..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "q[4..0]" (rect 95 58 125 71)(font "Arial" (font_size 8)))
 		(line (pt 144 64)(pt 128 64)(line_width 3))
 	)
 	(drawing

@@ -42,7 +42,7 @@ USE lpm.all;
 ENTITY main_decoder IS
 	PORT
 	(
-		data		: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
+		data		: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
 		eq0		: OUT STD_LOGIC ;
 		eq1		: OUT STD_LOGIC ;
 		eq10		: OUT STD_LOGIC ;
@@ -51,8 +51,24 @@ ENTITY main_decoder IS
 		eq13		: OUT STD_LOGIC ;
 		eq14		: OUT STD_LOGIC ;
 		eq15		: OUT STD_LOGIC ;
+		eq16		: OUT STD_LOGIC ;
+		eq17		: OUT STD_LOGIC ;
+		eq18		: OUT STD_LOGIC ;
+		eq19		: OUT STD_LOGIC ;
 		eq2		: OUT STD_LOGIC ;
+		eq20		: OUT STD_LOGIC ;
+		eq21		: OUT STD_LOGIC ;
+		eq22		: OUT STD_LOGIC ;
+		eq23		: OUT STD_LOGIC ;
+		eq24		: OUT STD_LOGIC ;
+		eq25		: OUT STD_LOGIC ;
+		eq26		: OUT STD_LOGIC ;
+		eq27		: OUT STD_LOGIC ;
+		eq28		: OUT STD_LOGIC ;
+		eq29		: OUT STD_LOGIC ;
 		eq3		: OUT STD_LOGIC ;
+		eq30		: OUT STD_LOGIC ;
+		eq31		: OUT STD_LOGIC ;
 		eq4		: OUT STD_LOGIC ;
 		eq5		: OUT STD_LOGIC ;
 		eq6		: OUT STD_LOGIC ;
@@ -65,7 +81,7 @@ END main_decoder;
 
 ARCHITECTURE SYN OF main_decoder IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (15 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (31 DOWNTO 0);
 	SIGNAL sub_wire1	: STD_LOGIC ;
 	SIGNAL sub_wire2	: STD_LOGIC ;
 	SIGNAL sub_wire3	: STD_LOGIC ;
@@ -82,6 +98,22 @@ ARCHITECTURE SYN OF main_decoder IS
 	SIGNAL sub_wire14	: STD_LOGIC ;
 	SIGNAL sub_wire15	: STD_LOGIC ;
 	SIGNAL sub_wire16	: STD_LOGIC ;
+	SIGNAL sub_wire17	: STD_LOGIC ;
+	SIGNAL sub_wire18	: STD_LOGIC ;
+	SIGNAL sub_wire19	: STD_LOGIC ;
+	SIGNAL sub_wire20	: STD_LOGIC ;
+	SIGNAL sub_wire21	: STD_LOGIC ;
+	SIGNAL sub_wire22	: STD_LOGIC ;
+	SIGNAL sub_wire23	: STD_LOGIC ;
+	SIGNAL sub_wire24	: STD_LOGIC ;
+	SIGNAL sub_wire25	: STD_LOGIC ;
+	SIGNAL sub_wire26	: STD_LOGIC ;
+	SIGNAL sub_wire27	: STD_LOGIC ;
+	SIGNAL sub_wire28	: STD_LOGIC ;
+	SIGNAL sub_wire29	: STD_LOGIC ;
+	SIGNAL sub_wire30	: STD_LOGIC ;
+	SIGNAL sub_wire31	: STD_LOGIC ;
+	SIGNAL sub_wire32	: STD_LOGIC ;
 
 
 
@@ -93,49 +125,81 @@ ARCHITECTURE SYN OF main_decoder IS
 	);
 	PORT (
 			eq	: OUT STD_LOGIC_VECTOR (lpm_decodes-1 DOWNTO 0);
-			data	: IN STD_LOGIC_VECTOR (3 DOWNTO 0)
+			data	: IN STD_LOGIC_VECTOR (4 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire16    <= sub_wire0(15);
-	sub_wire15    <= sub_wire0(14);
-	sub_wire14    <= sub_wire0(13);
-	sub_wire13    <= sub_wire0(12);
-	sub_wire12    <= sub_wire0(11);
-	sub_wire11    <= sub_wire0(9);
-	sub_wire10    <= sub_wire0(10);
-	sub_wire9    <= sub_wire0(8);
-	sub_wire8    <= sub_wire0(7);
-	sub_wire7    <= sub_wire0(6);
-	sub_wire6    <= sub_wire0(5);
-	sub_wire5    <= sub_wire0(4);
-	sub_wire4    <= sub_wire0(3);
-	sub_wire3    <= sub_wire0(2);
-	sub_wire2    <= sub_wire0(1);
-	sub_wire1    <= sub_wire0(0);
-	eq0    <= sub_wire1;
-	eq1    <= sub_wire2;
-	eq2    <= sub_wire3;
-	eq3    <= sub_wire4;
-	eq4    <= sub_wire5;
-	eq5    <= sub_wire6;
-	eq6    <= sub_wire7;
-	eq7    <= sub_wire8;
-	eq8    <= sub_wire9;
-	eq10    <= sub_wire10;
-	eq9    <= sub_wire11;
-	eq11    <= sub_wire12;
-	eq12    <= sub_wire13;
-	eq13    <= sub_wire14;
-	eq14    <= sub_wire15;
-	eq15    <= sub_wire16;
+	sub_wire32    <= sub_wire0(15);
+	sub_wire31    <= sub_wire0(26);
+	sub_wire30    <= sub_wire0(14);
+	sub_wire29    <= sub_wire0(25);
+	sub_wire28    <= sub_wire0(13);
+	sub_wire27    <= sub_wire0(24);
+	sub_wire26    <= sub_wire0(12);
+	sub_wire25    <= sub_wire0(23);
+	sub_wire24    <= sub_wire0(11);
+	sub_wire23    <= sub_wire0(22);
+	sub_wire22    <= sub_wire0(9);
+	sub_wire21    <= sub_wire0(10);
+	sub_wire20    <= sub_wire0(21);
+	sub_wire19    <= sub_wire0(8);
+	sub_wire18    <= sub_wire0(20);
+	sub_wire17    <= sub_wire0(31);
+	sub_wire16    <= sub_wire0(7);
+	sub_wire15    <= sub_wire0(30);
+	sub_wire14    <= sub_wire0(6);
+	sub_wire13    <= sub_wire0(5);
+	sub_wire12    <= sub_wire0(4);
+	sub_wire11    <= sub_wire0(3);
+	sub_wire10    <= sub_wire0(2);
+	sub_wire9    <= sub_wire0(1);
+	sub_wire8    <= sub_wire0(19);
+	sub_wire7    <= sub_wire0(0);
+	sub_wire6    <= sub_wire0(18);
+	sub_wire5    <= sub_wire0(29);
+	sub_wire4    <= sub_wire0(17);
+	sub_wire3    <= sub_wire0(28);
+	sub_wire2    <= sub_wire0(16);
+	sub_wire1    <= sub_wire0(27);
+	eq27    <= sub_wire1;
+	eq16    <= sub_wire2;
+	eq28    <= sub_wire3;
+	eq17    <= sub_wire4;
+	eq29    <= sub_wire5;
+	eq18    <= sub_wire6;
+	eq0    <= sub_wire7;
+	eq19    <= sub_wire8;
+	eq1    <= sub_wire9;
+	eq2    <= sub_wire10;
+	eq3    <= sub_wire11;
+	eq4    <= sub_wire12;
+	eq5    <= sub_wire13;
+	eq6    <= sub_wire14;
+	eq30    <= sub_wire15;
+	eq7    <= sub_wire16;
+	eq31    <= sub_wire17;
+	eq20    <= sub_wire18;
+	eq8    <= sub_wire19;
+	eq21    <= sub_wire20;
+	eq10    <= sub_wire21;
+	eq9    <= sub_wire22;
+	eq22    <= sub_wire23;
+	eq11    <= sub_wire24;
+	eq23    <= sub_wire25;
+	eq12    <= sub_wire26;
+	eq24    <= sub_wire27;
+	eq13    <= sub_wire28;
+	eq25    <= sub_wire29;
+	eq14    <= sub_wire30;
+	eq26    <= sub_wire31;
+	eq15    <= sub_wire32;
 
 	lpm_decode_component : lpm_decode
 	GENERIC MAP (
-		lpm_decodes => 16,
+		lpm_decodes => 32,
 		lpm_type => "LPM_DECODE",
-		lpm_width => 4
+		lpm_width => 5
 	)
 	PORT MAP (
 		data => data,
@@ -165,20 +229,36 @@ END SYN;
 -- Retrieval info: PRIVATE: eq13 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq14 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq15 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq16 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq17 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq18 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq19 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq2 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq20 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq21 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq22 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq23 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq24 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq25 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq26 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq27 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq28 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq29 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq3 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq30 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq31 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq4 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq5 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq6 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq7 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq8 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq9 NUMERIC "1"
--- Retrieval info: PRIVATE: nBit NUMERIC "4"
--- Retrieval info: CONSTANT: LPM_DECODES NUMERIC "16"
+-- Retrieval info: PRIVATE: nBit NUMERIC "5"
+-- Retrieval info: CONSTANT: LPM_DECODES NUMERIC "32"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_DECODE"
--- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
+-- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "5"
 -- Retrieval info: USED_PORT: @eq 0 0 LPM_DECODES 0 OUTPUT NODEFVAL @eq[LPM_DECODES-1..0]
--- Retrieval info: USED_PORT: data 0 0 4 0 INPUT NODEFVAL data[3..0]
+-- Retrieval info: USED_PORT: data 0 0 5 0 INPUT NODEFVAL data[4..0]
 -- Retrieval info: USED_PORT: eq0 0 0 0 0 OUTPUT NODEFVAL eq0
 -- Retrieval info: USED_PORT: eq1 0 0 0 0 OUTPUT NODEFVAL eq1
 -- Retrieval info: USED_PORT: eq10 0 0 0 0 OUTPUT NODEFVAL eq10
@@ -187,15 +267,31 @@ END SYN;
 -- Retrieval info: USED_PORT: eq13 0 0 0 0 OUTPUT NODEFVAL eq13
 -- Retrieval info: USED_PORT: eq14 0 0 0 0 OUTPUT NODEFVAL eq14
 -- Retrieval info: USED_PORT: eq15 0 0 0 0 OUTPUT NODEFVAL eq15
+-- Retrieval info: USED_PORT: eq16 0 0 0 0 OUTPUT NODEFVAL eq16
+-- Retrieval info: USED_PORT: eq17 0 0 0 0 OUTPUT NODEFVAL eq17
+-- Retrieval info: USED_PORT: eq18 0 0 0 0 OUTPUT NODEFVAL eq18
+-- Retrieval info: USED_PORT: eq19 0 0 0 0 OUTPUT NODEFVAL eq19
 -- Retrieval info: USED_PORT: eq2 0 0 0 0 OUTPUT NODEFVAL eq2
+-- Retrieval info: USED_PORT: eq20 0 0 0 0 OUTPUT NODEFVAL eq20
+-- Retrieval info: USED_PORT: eq21 0 0 0 0 OUTPUT NODEFVAL eq21
+-- Retrieval info: USED_PORT: eq22 0 0 0 0 OUTPUT NODEFVAL eq22
+-- Retrieval info: USED_PORT: eq23 0 0 0 0 OUTPUT NODEFVAL eq23
+-- Retrieval info: USED_PORT: eq24 0 0 0 0 OUTPUT NODEFVAL eq24
+-- Retrieval info: USED_PORT: eq25 0 0 0 0 OUTPUT NODEFVAL eq25
+-- Retrieval info: USED_PORT: eq26 0 0 0 0 OUTPUT NODEFVAL eq26
+-- Retrieval info: USED_PORT: eq27 0 0 0 0 OUTPUT NODEFVAL eq27
+-- Retrieval info: USED_PORT: eq28 0 0 0 0 OUTPUT NODEFVAL eq28
+-- Retrieval info: USED_PORT: eq29 0 0 0 0 OUTPUT NODEFVAL eq29
 -- Retrieval info: USED_PORT: eq3 0 0 0 0 OUTPUT NODEFVAL eq3
+-- Retrieval info: USED_PORT: eq30 0 0 0 0 OUTPUT NODEFVAL eq30
+-- Retrieval info: USED_PORT: eq31 0 0 0 0 OUTPUT NODEFVAL eq31
 -- Retrieval info: USED_PORT: eq4 0 0 0 0 OUTPUT NODEFVAL eq4
 -- Retrieval info: USED_PORT: eq5 0 0 0 0 OUTPUT NODEFVAL eq5
 -- Retrieval info: USED_PORT: eq6 0 0 0 0 OUTPUT NODEFVAL eq6
 -- Retrieval info: USED_PORT: eq7 0 0 0 0 OUTPUT NODEFVAL eq7
 -- Retrieval info: USED_PORT: eq8 0 0 0 0 OUTPUT NODEFVAL eq8
 -- Retrieval info: USED_PORT: eq9 0 0 0 0 OUTPUT NODEFVAL eq9
--- Retrieval info: CONNECT: @data 0 0 4 0 data 0 0 4 0
+-- Retrieval info: CONNECT: @data 0 0 5 0 data 0 0 5 0
 -- Retrieval info: CONNECT: eq0 0 0 0 0 @eq 0 0 1 0
 -- Retrieval info: CONNECT: eq1 0 0 0 0 @eq 0 0 1 1
 -- Retrieval info: CONNECT: eq2 0 0 0 0 @eq 0 0 1 2
@@ -212,6 +308,22 @@ END SYN;
 -- Retrieval info: CONNECT: eq13 0 0 0 0 @eq 0 0 1 13
 -- Retrieval info: CONNECT: eq14 0 0 0 0 @eq 0 0 1 14
 -- Retrieval info: CONNECT: eq15 0 0 0 0 @eq 0 0 1 15
+-- Retrieval info: CONNECT: eq16 0 0 0 0 @eq 0 0 1 16
+-- Retrieval info: CONNECT: eq17 0 0 0 0 @eq 0 0 1 17
+-- Retrieval info: CONNECT: eq18 0 0 0 0 @eq 0 0 1 18
+-- Retrieval info: CONNECT: eq19 0 0 0 0 @eq 0 0 1 19
+-- Retrieval info: CONNECT: eq20 0 0 0 0 @eq 0 0 1 20
+-- Retrieval info: CONNECT: eq21 0 0 0 0 @eq 0 0 1 21
+-- Retrieval info: CONNECT: eq22 0 0 0 0 @eq 0 0 1 22
+-- Retrieval info: CONNECT: eq23 0 0 0 0 @eq 0 0 1 23
+-- Retrieval info: CONNECT: eq24 0 0 0 0 @eq 0 0 1 24
+-- Retrieval info: CONNECT: eq25 0 0 0 0 @eq 0 0 1 25
+-- Retrieval info: CONNECT: eq26 0 0 0 0 @eq 0 0 1 26
+-- Retrieval info: CONNECT: eq27 0 0 0 0 @eq 0 0 1 27
+-- Retrieval info: CONNECT: eq28 0 0 0 0 @eq 0 0 1 28
+-- Retrieval info: CONNECT: eq29 0 0 0 0 @eq 0 0 1 29
+-- Retrieval info: CONNECT: eq30 0 0 0 0 @eq 0 0 1 30
+-- Retrieval info: CONNECT: eq31 0 0 0 0 @eq 0 0 1 31
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL main_decoder.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL main_decoder.inc TRUE

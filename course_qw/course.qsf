@@ -38,16 +38,24 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name TOP_LEVEL_ENTITY Stack
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:29:15  MARCH 27, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE debug.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE stack.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name BDF_FILE main.bdf
 set_global_assignment -name BDF_FILE CPU.bdf
+set_global_assignment -name BDF_FILE Cashe.bdf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name BDF_FILE Stack.bdf
 set_global_assignment -name BDF_FILE memory.bdf
 set_global_assignment -name BDF_FILE ID.bdf
 set_global_assignment -name BDF_FILE RON.bdf
@@ -55,6 +63,7 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE memory.vwf
 set_global_assignment -name HEX_FILE rom.hex
 set_global_assignment -name HEX_FILE ram.hex
 set_global_assignment -name VECTOR_WAVEFORM_FILE debug.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE stack.vwf
 set_global_assignment -name QIP_FILE ROM.qip
 set_global_assignment -name QIP_FILE RAM_dq.qip
 set_global_assignment -name QIP_FILE lpm_bustri_13.qip
@@ -65,14 +74,24 @@ set_global_assignment -name QIP_FILE reg_num_decode.qip
 set_global_assignment -name QIP_FILE processor_register.qip
 set_global_assignment -name QIP_FILE main_counter.qip
 set_global_assignment -name QIP_FILE main_decoder.qip
+set_global_assignment -name QIP_FILE result_address_register.qip
 set_global_assignment -name QIP_FILE lpm_bustri_14.qip
 set_global_assignment -name QIP_FILE OP_decoder.qip
 set_global_assignment -name QIP_FILE register_mux.qip
 set_global_assignment -name QIP_FILE lpm_bustri_4.qip
 set_global_assignment -name QIP_FILE summator_address.qip
-set_global_assignment -name QIP_FILE result_address_register.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name QIP_FILE ALU_OP_decoder.qip
+set_global_assignment -name QIP_FILE decrement.qip
+set_global_assignment -name QIP_FILE SP.qip
+set_global_assignment -name QIP_FILE tmp_register.qip
+set_global_assignment -name QIP_FILE BX_SI_for_sum.qip
+set_global_assignment -name QIP_FILE operand_ALU.qip
+set_global_assignment -name QIP_FILE ROR_MUX.qip
+set_global_assignment -name QIP_FILE Stack_register.qip
+set_global_assignment -name QIP_FILE Stack_decoder.qip
+set_global_assignment -name QIP_FILE init_const.qip
+set_global_assignment -name QIP_FILE lpm_bustri_1.qip
+set_global_assignment -name QIP_FILE updown_mux.qip
+set_global_assignment -name QIP_FILE lpm_bustri_8.qip
+set_global_assignment -name QIP_FILE stack_mux.qip
+set_global_assignment -name QIP_FILE SP_POP.qip

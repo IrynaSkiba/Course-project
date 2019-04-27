@@ -103,15 +103,15 @@ applicable agreement for further details.
 	(port
 		(pt 216 160)
 		(output)
-		(text "signal_out" (rect 0 0 57 14)(font "Arial" (font_size 8)))
-		(text "signal_out" (rect 138 155 195 169)(font "Arial" (font_size 8)))
+		(text "write_en_reg" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "write_en_reg" (rect 119 155 195 169)(font "Arial" (font_size 8)))
 		(line (pt 216 160)(pt 200 160)(line_width 1))
 	)
 	(port
 		(pt 216 176)
 		(output)
-		(text "res[13..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
-		(text "res[13..0]" (rect 141 171 195 185)(font "Arial" (font_size 8)))
+		(text "res_alu[9..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "res_alu[9..0]" (rect 125 171 195 185)(font "Arial" (font_size 8)))
 		(line (pt 216 176)(pt 200 176)(line_width 3))
 	)
 	(drawing

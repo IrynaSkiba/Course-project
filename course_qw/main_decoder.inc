@@ -15,7 +15,7 @@
 
 FUNCTION main_decoder 
 (
-	data[3..0]
+	data[4..0]
 )
 
 RETURNS (
@@ -27,8 +27,24 @@ RETURNS (
 	eq13,
 	eq14,
 	eq15,
+	eq16,
+	eq17,
+	eq18,
+	eq19,
 	eq2,
+	eq20,
+	eq21,
+	eq22,
+	eq23,
+	eq24,
+	eq25,
+	eq26,
+	eq27,
+	eq28,
+	eq29,
 	eq3,
+	eq30,
+	eq31,
 	eq4,
 	eq5,
 	eq6,

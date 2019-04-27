@@ -21,5 +21,5 @@ FUNCTION main_counter
 )
 
 RETURNS (
-	q[3..0]
+	q[4..0]
 );

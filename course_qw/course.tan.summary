@@ -2,45 +2,65 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.983 ns
+From           : POP
+To             : SP:inst7|lpm_counter:lpm_counter_component|cntr_vbh:auto_generated|safe_q[2]
+From Clock     : --
+To Clock       : PUSH
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 19.214 ns
-From           : memory:inst1|ROM:inst|altsyncram:altsyncram_component|altsyncram_rv61:auto_generated|ram_block1a18
-To             : DB[8]
-From Clock     : clock
+Actual Time    : 13.476 ns
+From           : Stack_register:inst|lpm_ff:lpm_ff_component|dffs[8]
+To             : outdata[8]
+From Clock     : POP
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 6.518 ns
-From           : clock
-To             : CB[0]
+Actual Time    : 7.757 ns
+From           : POP
+To             : outdata[5]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'clock'
+Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 50.73 MHz ( period = 19.714 ns )
-From           : memory:inst1|RAM_dq:inst1|altsyncram:altsyncram_component|altsyncram_7ea1:auto_generated|out_address_reg_a[0]
-To             : CPU:inst|word_of_command:inst6|lpm_ff:lpm_ff_component|dffs[9]
-From Clock     : clock
-To Clock       : clock
+Actual Time    : 2.472 ns
+From           : indata[5]
+To             : Stack_register:inst6|lpm_ff:lpm_ff_component|dffs[5]
+From Clock     : --
+To Clock       : POP
 Failed Paths   : 0
 
-Type           : Clock Hold: 'clock'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'PUSH'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CPU:inst|main_counter:inst2|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated|safe_q[1]
-To             : memory:inst1|RAM_dq:inst1|altsyncram:altsyncram_component|altsyncram_7ea1:auto_generated|address_reg_a[0]
-From Clock     : clock
-To Clock       : clock
-Failed Paths   : 10000
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : SP:inst7|lpm_counter:lpm_counter_component|cntr_vbh:auto_generated|safe_q[0]
+To             : SP:inst7|lpm_counter:lpm_counter_component|cntr_vbh:auto_generated|safe_q[2]
+From Clock     : PUSH
+To Clock       : PUSH
+Failed Paths   : 0
+
+Type           : Clock Setup: 'POP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : SP:inst7|lpm_counter:lpm_counter_component|cntr_vbh:auto_generated|safe_q[0]
+To             : SP:inst7|lpm_counter:lpm_counter_component|cntr_vbh:auto_generated|safe_q[2]
+From Clock     : POP
+To Clock       : POP
+Failed Paths   : 0
 
 Type           : Total number of failed paths
 Slack          : 
@@ -50,7 +70,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 10000
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 
